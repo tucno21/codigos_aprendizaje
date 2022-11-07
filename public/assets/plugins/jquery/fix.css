@@ -1,0 +1,7 @@
+.ui-autocomplete {
+    z-index: 10000;
+}
+
+.swal2-toast-shown .swal2-container {
+    z-index: 10000;
+}

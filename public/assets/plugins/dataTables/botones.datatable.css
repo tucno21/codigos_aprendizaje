@@ -1,0 +1,16 @@
+.buttons-html5,
+.buttons-print,
+.buttons-colvis {
+    background-color: transparent;
+    color: #fff;
+    padding: 0;
+    border: none;
+}
+
+#datatables_buttons_info {
+    border: 2px solid #000;
+}
+
+#datatables_buttons_info h2 {
+    color: #000;
+}
