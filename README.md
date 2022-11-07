@@ -1,4 +1,4 @@
-# MINI FRAMEWORK MVC PHP 8.1
+# MI CÓDIGO DE APRENDIZAJE Y TRUCOS
 
 ## Requirimientos
 
