@@ -9,7 +9,7 @@
                         <h5 class="m-b-10">Crear usuario</h5>
                     </div>
                     <div class="">
-                        <a href="<?= route('codigos.index') ?>" class="btn btn-primary btn-sm">Agregar</a>
+                        <a href="<?= route('codigos.index') ?>" class="btn btn-primary btn-sm">Volver</a>
                     </div>
                 </div>
             </div>
