@@ -29,7 +29,7 @@
 </div>
 
 <!-- Modal -->
-<div class="modal fade modal-lg" id="codigoModal" tabindex="-1" aria-labelledby="codigoModalLabel" aria-hidden="true">
+<div class="modal fade modal-xl" id="codigoModal" tabindex="-1" aria-labelledby="codigoModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header p-3">
