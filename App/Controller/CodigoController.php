@@ -186,4 +186,14 @@ class CodigoController extends Controller
         echo json_encode($codigos);
         exit;
     }
+
+    public function listagit()
+    {
+        $codigos = Codigos::lista('git');
+        if (is_object($codigos)) {
+            $codigos = [$codigos];
+        }
+        echo json_encode($codigos);
+        exit;
+    }
 }

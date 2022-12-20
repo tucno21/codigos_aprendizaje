@@ -51,3 +51,6 @@ Route::get('/codigos/listacss', [CodigoController::class, 'listacss'])->name('co
 //bootstrap
 Route::get('/lenguajes/bootstrap', [LenguajeController::class, 'bootstrap'])->name('lenguajes.bootstrap');
 Route::get('/codigos/listabootstrap', [CodigoController::class, 'listabootstrap'])->name('codigos.listabootstrap');
+//git
+Route::get('/lenguajes/git', [LenguajeController::class, 'git'])->name('lenguajes.git');
+Route::get('/codigos/listagit', [CodigoController::class, 'listagit'])->name('codigos.listagit');

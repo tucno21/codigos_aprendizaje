@@ -93,6 +93,7 @@
                                 <li><a class="dropdown-item" href="<?= route('lenguajes.laravel') ?>">Laravel</a></li>
                                 <li><a class="dropdown-item" href="<?= route('lenguajes.css') ?>">CSS</a></li>
                                 <li><a class="dropdown-item" href="<?= route('lenguajes.bootstrap') ?>">Bootstrap</a></li>
+                                <li><a class="dropdown-item" href="<?= route('lenguajes.git') ?>">Git</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">

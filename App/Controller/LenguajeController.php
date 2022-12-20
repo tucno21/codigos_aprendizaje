@@ -127,4 +127,11 @@ class LenguajeController extends Controller
             'title' => 'Bootstrap',
         ]);
     }
+
+    public function git()
+    {
+        return view('home.git', [
+            'title' => 'Git',
+        ]);
+    }
 }
