@@ -57,3 +57,4 @@ if (codigoEmpresa) {
     console.error(error);
   });
 }
+//https://ckeditor.com/docs/ckeditor5/latest/features/code-blocks.html#configuring-code-block-languages
