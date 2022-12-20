@@ -54,3 +54,6 @@ Route::get('/codigos/listabootstrap', [CodigoController::class, 'listabootstrap'
 //git
 Route::get('/lenguajes/git', [LenguajeController::class, 'git'])->name('lenguajes.git');
 Route::get('/codigos/listagit', [CodigoController::class, 'listagit'])->name('codigos.listagit');
+//typescript
+Route::get('/lenguajes/typescript', [LenguajeController::class, 'typescript'])->name('lenguajes.typescript');
+Route::get('/codigos/listatypescript', [CodigoController::class, 'listatypescript'])->name('codigos.listatypescript');

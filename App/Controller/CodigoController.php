@@ -196,4 +196,14 @@ class CodigoController extends Controller
         echo json_encode($codigos);
         exit;
     }
+
+    public function listatypescript()
+    {
+        $codigos = Codigos::lista('typescript');
+        if (is_object($codigos)) {
+            $codigos = [$codigos];
+        }
+        echo json_encode($codigos);
+        exit;
+    }
 }

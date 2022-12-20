@@ -134,4 +134,11 @@ class LenguajeController extends Controller
             'title' => 'Git',
         ]);
     }
+
+    public function typescript()
+    {
+        return view('home.typescript', [
+            'title' => 'Typescript',
+        ]);
+    }
 }
